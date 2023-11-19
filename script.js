@@ -383,7 +383,7 @@ function calculateCircleCoordinates(radius, angle, centerX, centerY) {
 }
 const canvas = document.getElementById('networkCanvas');
 // Create nodes with different colors
-const numNodes = 15;
+const numNodes = 50;
 const circleRadius = Math.min(canvas.width,canvas.height)/2*0.8;
 const centerX = canvas.width/2;
 const centerY = canvas.height/2;

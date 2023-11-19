@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    flex-direction: column;
+}
+
+canvas {
+    /* border: 1px solid #ccc; */
+    width: min(80vh,80vw);
+    height: min(80vh,80vw);
+}
+
+.p2p_text {
+    font-size: 2rem;
+    height: min(20vh,20vw);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
